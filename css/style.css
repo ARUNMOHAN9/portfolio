@@ -1,0 +1,132 @@
+body {
+    background-color: #2c292f;
+    color: ivory;
+    padding-top: 30px;
+}
+
+
+#name {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.menu{
+    font-family: 'Rokkitt', serif;
+}
+
+
+#modalPara {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+}
+
+
+#head {
+    background-color: #2c292f;
+    padding: 2%;
+    /*margin-top: 2%;*/
+}
+
+
+#head small {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+
+#head span {
+    font-size: 30px;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/cover1.jpg");
+
+    /* Set a specific height */
+    height: 435px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#slide{
+    height: 10%;
+}
+
+
+#work {
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+
+#cardPad {
+    padding-top: 2%;
+    color: ghostwhite;
+}
+
+
+#cardPad img {
+    width: 150px;
+    height: 110px;
+}
+
+
+#cardpara1,
+#cardpara4 {
+    padding: 20px;
+}
+
+
+#cardpara2,
+#cardpara3,
+#cardpara5,
+#cardpara6 {
+    padding: 2%;
+}
+
+
+.card-text {
+    font-family: 'Philosopher', sans-serif;
+}
+
+
+.card-title{
+    font-family: 'Audiowide', cursive;
+}
+
+
+.card-block {
+    background-color: dimgrey;
+    padding: 10px;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .parallax {
+        background-attachment: scroll;
+        background-image: none;
+        height: 0;
+    }
+
+    .display-3 {
+        font-size: 3.5em;
+    }
+
+    #head {
+        padding-top: 8%;
+    }
+
+    #work {
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .display-3 {
+        font-size: 49px;
+    }
+}
